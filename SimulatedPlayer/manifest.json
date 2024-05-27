@@ -1,0 +1,44 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "TEST",
+		"description": "適当に説明",
+		"min_engine_version": [
+			1,
+			20,
+			0
+		],
+		"uuid": "9f7d1ec5-c734-4fa9-875b-1ae586de78cc",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "ef0197c4-54a9-42cb-a50c-8037cf1b9242",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+        {
+            "description": "javascript",
+            "type": "script",
+            "language": "javascript",
+            "uuid": "bc39463a-1db7-4219-8f76-89d59f3bfcf2",
+            "entry": "scripts/Main.js",
+            "version": [ 1, 0, 0 ]
+        }
+	],
+	"capabilities": [],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server-gametest",
+			"version": "1.0.0-beta"
+		}
+	]
+}
